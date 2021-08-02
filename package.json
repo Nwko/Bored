@@ -1,0 +1,20 @@
+{
+  "name": "bored",
+  "version": "1.0.0",
+  "description": "im bored -w-",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nwko/Bored.git"
+  },
+  "keywords": [
+    "bored"
+  ],
+  "author": "Nwko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nwko/Bored/issues"
+  },
+  "homepage": "https://github.com/Nwko/Bored#readme"
+}
