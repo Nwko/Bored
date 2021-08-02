@@ -1,0 +1,2 @@
+# Bored
+im bored -w-
