@@ -1,0 +1,83 @@
+// Create some text animations
+$animation-duration: 1.25s;
+$animation-timing: ease-in-out;
+$animation-delay: 0s;
+$animation-iteration-count: 1;
+$animation-direction: normal;
+$animation-fill-mode: forwards;
+$animation-play-state: running;
+
+// Text animation
+@keyframes text-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Text animation text-fade-out
+@keyframes text-fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+// Text animation text-fade-in
+@keyframes text-fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Fade in text
+.fade-in {
+  animation: text-fade-in $animation-duration $animation-timing $animation-delay
+    $animation-iteration-count $animation-direction $animation-fill-mode
+    $animation-play-state;
+}
+
+// Fade out text
+.fade-out {
+  animation: text-fade-out $animation-duration $animation-timing
+    $animation-delay $animation-iteration-count $animation-direction
+    $animation-fill-mode $animation-play-state;
+}
+
+// Text animation text-bounce
+@keyframes text-bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// Text animation text-bounce-out
+@keyframes text-bounce-out {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,16 @@
+// Generate colors
+$primary-color: #0070f3;
+$background-color: #0070f3;
+$text-color: #212121;
+
+$button-default-color: #00bcd4;
+$button-default-bg: #fafafa;
+$button-default-border: #e0e0e0;
+$button-primary-color: #fff;
+$button-primary-bg: $primary-color;
+$button-primary-border: darken($primary-color, 10%);
+$button-success-color: #fff;
+$button-success-bg: #4caf50;
+$button-success-border: darken($button-success-bg, 10%);
+$button-danger-color: #fff;
+$button-danger-bg: #f44336;

@@ -1,0 +1,26 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css/"
+    }
+  ],
+  "cSpell.words": [
+    "eslintcache",
+    "ionide",
+    "jscoverage",
+    "jspm",
+    "lcov",
+    "Microbundle",
+    "nuxt",
+    "overriden",
+    "pnpm",
+    "Styleguide",
+    "stylelint",
+    "stylelintcache",
+    "vsix",
+    "vuepress",
+    "wscript"
+  ]
+}

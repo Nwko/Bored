@@ -1,0 +1,45 @@
+@import "./colors.scss";
+@import "./animation.scss";
+@import "./fonts.scss";
+
+body {
+  font-family: $body-font;
+  font-size: 16px;
+  color: $text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  animation: text-bounce $animation-duration $animation-timing $animation-delay
+    $animation-iteration-count $animation-direction $animation-fill-mode
+    $animation-play-state;
+  font-family: $heading-font;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: $text-color;
+}
+
+p {
+  animation: text-fade-out $animation-duration $animation-timing
+    $animation-delay $animation-iteration-count $animation-direction
+    $animation-fill-mode $animation-play-state;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: $text-color;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+
+  &:hover {
+    color: darken($primary-color, 70%);
+  }
+}

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Nwko/Bored/issues"
   },
-  "homepage": "https://github.com/Nwko/Bored#readme"
+  "homepage": "https://github.com/Nwko/Bored#readme",
+  "dependencies": {
+    "scss": "^0.2.4"
+  }
 }
